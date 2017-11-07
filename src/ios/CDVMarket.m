@@ -8,10 +8,6 @@
 
 @implementation CDVMarket
 
-- (void)pluginInitialize
-{
-}
-
 - (void)open:(CDVInvokedUrlCommand *)command
 {
     [self.commandDelegate runInBackground:^{
