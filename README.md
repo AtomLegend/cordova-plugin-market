@@ -1,6 +1,13 @@
 cordova-plugin-market
 =====================
 
+Update:
+
+This fork updates the iOS Version of the original implementation. The following issues are fixed:
+
+- Deprecated openURL: call
+- openURL: was called from background thread
+
 Cordova (PhoneGap) 3.0+ plugin to open an application on native Marketplace app, aka Play Store for Android or App Store for iOS.
 Currently this plugin is compatible only with Android and iOS. Feel free to add support for the platform you need!
 
